@@ -30,7 +30,7 @@ namespace HUSTLEPLUS.SELLER.ORDER.MICROSERVICE.Controllers
         {
             try
             {
-            String key = "sk_test_461681dcde84065c1bdb0954fafc48ab5955a524";
+            String key = "";
                 string jsonString;
            
                 using (StreamReader reader = new StreamReader(Request.HttpContext.Request.Body, Encoding.UTF8))
